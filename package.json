@@ -1,0 +1,20 @@
+{
+  "name": "jquery-text-count",
+  "version": "1.0.0",
+  "description": "一个用来统计input或者textarea字数的jquery插件。",
+  "main": "index.html",
+  "scripts": {
+	"build": "uglifyjs ./src/jquery-text-count.js -m -o jquery-text-count.min.js --source-map jquery-text-count.min.js.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/hungtcs/JQuery-Text-Count.git"
+  },
+  "keywords": [
+    "JQuery",
+    "word",
+    "count"
+  ],
+  "author": "Hungze",
+  "license": "ISC"
+}

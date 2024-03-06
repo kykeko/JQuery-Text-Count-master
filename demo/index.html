@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Text count demo</title>
+	<style type="text/css">
+		#text{
+			min-width: 400px;
+			max-width: 400px;
+			min-height: 200px; 
+		}
+		.text-count-tip-full{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<textarea id="text"></textarea>
+	<div id="tip"></div>
+</body>
+<script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script type="text/javascript" src="../jquery-text-count.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#text").countText({
+			tipEle: $("#tip") ,
+			maxNum: 20
+		});
+	});
+</script>
+</html>

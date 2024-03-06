@@ -19,10 +19,6 @@ $(function(){
     });
 });
 ```
-### 基础示例
-![](http://i2.piimg.com/567571/493f0fa06a48b2e0.png)<br />
-![](http://i2.piimg.com/567571/411fbd20be2643d0.png)<br />
-[点击查看](http://hungtcs.oschina.io/jquery-text-count/demo)
 
 ### 配置
 ```javascript
@@ -45,6 +41,3 @@ $("#text").countText({
     fullTipText: "已超出{{overflowLen}}个字"
 });
 ```
-
-### 更新时间
-`2016年7月7日`

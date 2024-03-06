@@ -1,13 +1,3 @@
-/*!
- * JQuery text count
- * ========
- * Home:		http://hungtcs.oschina.io/hungzeblog
- * Git:			https://git.oschina.net/hungtcs/JQuery-Text-Count.git
- *				https://github.com/hungtcs/JQuery-Text-Count.git
- * Author:		Hungze
- * Email:		hungtcs@163.com
- * Date:		July 7 ,2106
- */
 (function($){
 	$.fn.countText = function(option){
 		if(!option){ console.error("Required configuration parameters."); return false; };
